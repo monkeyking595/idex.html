@@ -1,39 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover AI-powered shopping with smart recommendations and fast delivery. Shop smarter today!">
+    <meta name="description" content="Your login page!">
     <title>Thaimei E-commerce</title>
-  </head>
-  <body>
-        <main>
-      <section>
-         
-        <p>please select your gener</p>
-        <label><input type="radio" name="gender" value="male">male</label>
-        <br>
-        <label><input type="radio" name="gender" value="female">female</label>
-      </section>
-      
-      <section>
-      
-          <p>select your style</p>
-           <label><input type="radio" name="fashion" value="old money">old money</label>
-        <br>
-        <label><input type="radio" name="fashion" value="new money">new money</label>
-        <br>
-        <label><input type="radio" name="fashion" value="street wear">street wear</label>
-        <br>
-        <label><input type="radio" name="fashion" vlue="opium">opium</label>
-        <br>
-        <label><input type="radio" name="fashion" value="soft boy">soft boy</label>
-      
-      </section>
-      <section>
-        
-      </section>
+</head>
+<body>
+    <main>
+        <form action="index.html" method="post">
+            <!-- Create Account Section -->
+            <fieldset>
+                <legend>New here? Create your account here</legend>
+                <label for="username">Username:</label>
+                <br>
+                <input type="text" name="user-n" id="username" value="monkey" required>
+                <br>
+
+                <label for="user-pw">Password:</label>
+                <br>
+                <input id="user-pw" name="password" type="password" required>
+                <br>
+
+                <label for="phone-no">Phone Number:</label>
+                <br>
+                <input type="number" name="contact" id="phone-no" value="0" required>
+            </fieldset>
+
+            <!-- Sign-In Section -->
+            <fieldset>
+                <legend>Already have an account? Sign in here</legend>
+                <br>
+                <label for="signin-username">Username:</label>
+                <br>
+                <input type="text" name="username" id="signin-username" value="monkey" required>
+                <br>
+
+                <label for="pw">Password:</label>
+                <br>
+                <input type="password" name="userpw" id="pw" required>
+            </fieldset>
+
+            <!-- Gender Selection -->
+            <fieldset>
+                <p>Please select your gender:</p>
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <br>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <fieldset>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
     </main>
-  </body>
+</body>
 </html>
