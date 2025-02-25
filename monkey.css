@@ -31,12 +31,31 @@ body {
 
 .category {
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+
+/* Background Images */
+.old-money {
+    background-image: url('old-money.jpg');
+}
+
+.streetwear {
+    background-image: url('streetwear.jpg');
+}
+
+.opium {
+    background-image: url('opium.jpg');
+}
+
+.new-money {
+    background-image: url('new-money.jpg');
 }
 
 footer {
