@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover AI-powered shopping with smart recommendations and fast delivery.">
+    <title>Thaimei E-commerce</title>
+    <link rel="stylesheet" href="monkey.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>AI-Powered Shopping</h1>
+        <p>Find your perfect style with AI recommendations.</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </header>
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category old-money">Old Money</div>
+            <div class="category streetwear">Streetwear</div>
+            <div class="category opium">Opium</div>
+            <div class="category new-money">New Money</div>
+        </div>
+    </section>
+
+    <section class="trending-products">
+        <h2>Trending Now</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Cool Jacket">
+                <h3>Cool Jacket</h3>
+                <p>$59.99</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Get the latest trends and exclusive discounts in your inbox.</p>
+        <input type="email" placeholder="Enter your email">
+        <button class="btn">Subscribe</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Thaimei E-commerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>
